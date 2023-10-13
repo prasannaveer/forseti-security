@@ -72,7 +72,7 @@ variable "server_region" {
 
 variable "server_boot_image" {
   description = "GCE Forseti Server boot image - Currently only Ubuntu is supported"
-  default     = "ubuntu-os-cloud/ubuntu-1804-lts"
+  default     = "ubuntu-os-cloud/ubuntu-2004-lts"
 }
 
 variable "server_shielded_instance_config" {
