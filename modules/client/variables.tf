@@ -52,7 +52,7 @@ variable "client_type" {
 
 variable "client_boot_image" {
   description = "GCE Forseti Client boot image"
-  default     = "ubuntu-os-cloud/ubuntu-1804-lts"
+  default     = "ubuntu-os-cloud/ubuntu-2004-lts"
 }
 
 variable "client_shielded_instance_config" {
